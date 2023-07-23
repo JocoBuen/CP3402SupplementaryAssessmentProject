@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftps://waws-prod-blu-487.ftp.azurewebsites.windows.net/site/wwwroot
+        server: https://mcr.microsoft.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
        
