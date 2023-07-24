@@ -10,4 +10,7 @@ Neve Theme is part of the family created by Themeisle in Wordpress. The Neve the
 
 It is based from the parent theme Neve. Design modifications I made is for the CP3402 Supplementary Assignment Project. This child-theme is easy to use and well designed for third age people.
 
-## Local Deployment - Docker Desktop
+## Local Development - Docker Desktop
+
+Local development systems that will be used include Docker and Git. The workflow mainly consists of cloning this project's repository into the files of a locally hosted website, before making changes on a feature-specific branch.
+

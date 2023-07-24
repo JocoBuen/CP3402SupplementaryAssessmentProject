@@ -11,3 +11,28 @@ Updated: 2023-07-15 12:14:12
 
 */
 
+.header-menu-sidebar-bg,
+[class*=row-inner] {
+    background-color: #004ea2;
+}
+
+.is-style-primary {
+    background-color: #ffc709;
+}
+
+.builder-item .item--inner:hover {
+    color: #ffc709;
+}
+
+
+/* .alignfull {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding: 0 7.5px;
+} */
+
+.is-style-primary {
+    background: #ffc709;
+}
