@@ -14,3 +14,13 @@ It is based from the parent theme Neve. Design modifications I made is for the C
 
 Local development systems that will be used include Docker and Git. The workflow mainly consists of cloning this project's repository into the files of a locally hosted website, before making changes on a feature-specific branch.
 
+### Site Setup
+
+1. Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+2. Create your [docker-compose](https://gist.github.com/erikyuzwa/7411752ddcb95b09434aa88f38d91630) file
+3. Create your .env file that you will use in the docker-compose
+4. Install Wordpress once a container was created from your docker
+5. Open Wordpress Admin dashboard by adding `/wp-admin/`
+6. Login with the credentials you created when you installed Wordpress
+
+
