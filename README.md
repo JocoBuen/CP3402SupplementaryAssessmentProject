@@ -26,7 +26,9 @@ Additionally, Docker benefits from an extensive library of pre-built container i
 
 In summary, Docker Desktop offers a streamlined and lightweight approach to developing WordPress projects locally, providing increased speed, efficiency, and simplicity compared to Vagrant's virtual machine-based workflow.
 
-### Site Setup
+## Making Changes to the Website - Local, Testing, and Deployment Process
+
+### Local Development Environment Setup
 
 1. Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 2. Create your [docker-compose](https://gist.github.com/erikyuzwa/7411752ddcb95b09434aa88f38d91630) file
@@ -35,22 +37,13 @@ In summary, Docker Desktop offers a streamlined and lightweight approach to deve
 5. Open Wordpress Admin dashboard by adding `/wp-admin/`
 6. Login with the credentials you created when you installed Wordpress
 
-### Theme Setup
+### Making New Changes
 
-1. Download and Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-2. Download and Install [VS Code](https://code.visualstudio.com/download)
-3. Navigate to your local site's root folder in the terminal of the VS Code
-4. Navigate to `wp-content -> themes`
-5. Clone the repository by typing `git clone https://github.com/JocoBuen/CP3402SupplementaryAssessmentProject.git`
-    1. if using the theme for another purpose, clone a fork of this repository
-6. Navigate to your Wordpress Admin Dashboard under `Appearance -> Themes`
-7. Activate the theme `Neve-child`
+1. Use a code editor to modify the website's files in your local development environment.
+2. Test the changes locally to ensure they work as intended on your computer.
+3. Make use of descriptive comments in the code to document changes and their purpose.
 
-## Live Production
-
-This project uses Microsoft Azure for its live hosting. The primary workflow involves importing the theme and site content from the source local  development environments. The process of exporting is only done when migrating the site to a staging environment for the client.
-
-### Site Setup
+### Production Environment Setup
 
 1. Make an account at [Microsoft Azure](https://azure.microsoft.com/en-au/free/search/?ef_id=_k_EAIaIQobChMIyLTzpvSpgAMV-mwPAh0upAszEAAYASAAEgLcavD_BwE_k_&OCID=AIDcmmxbrcqs76_SEM__k_EAIaIQobChMIyLTzpvSpgAMV-mwPAh0upAszEAAYASAAEgLcavD_BwE_k_&gad=1&gclid=EAIaIQobChMIyLTzpvSpgAMV-mwPAh0upAszEAAYASAAEgLcavD_BwE)
 2. Go to [Create Wordpress on App Service - Microsoft Azure](https://portal.azure.com/#create/WordPress.WordPress)
@@ -66,3 +59,16 @@ This project uses Microsoft Azure for its live hosting. The primary workflow inv
 12. You will land on the homepage of your WordPress website.
 13. Add /wp-admin to your URL. In this example, https://wpwebsitename.azurewebsites.net/wp-admin This will take you to the Admin page. In the Admin page, enter your credentials that you had set in Step 5.
 14. You are now in the WordPress Admin Dashboard! Happy WordPress-ing!
+
+### Deployment to Production
+
+1. Once the changes are thoroughly tested and approved, merge the development branch into the main branch in the version control system.
+2. Pull the latest version of the main branch on the production server.
+3. Apply the changes on the production server, either through Git pull or by uploading the modified files.
+4. Clear caches and ensure all necessary configurations are in place.
+
+### Version Control and Documentation
+
+1. Ensure that all changes made are well-documented in the version control system, including commit messages and detailed comments.
+2. Maintain a changelog to keep track of all updates and improvements to the site.
+3. Update the website's documentation to reflect any significant changes or new features.
