@@ -37,5 +37,8 @@ Updated: 2023-07-15 12:14:12
     background: #ffc709;
 }
 
-
-/* this is a test comment */
+.footer-main {
+    --rowbcolor: rgb(255 255 255);
+    --color: #ffffff;
+    --bgcolor: #004ea2;
+}
