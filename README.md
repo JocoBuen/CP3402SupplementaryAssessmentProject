@@ -38,3 +38,4 @@ Local development systems that will be used include Docker and Git. The workflow
 
 This project uses Microsoft Azure for its live hosting. The primary workflow involves importing the theme and site content from the source local  development environments. The process of exporting is only done when migrating the site to a staging environment for the client.
 
+### Site Setup
