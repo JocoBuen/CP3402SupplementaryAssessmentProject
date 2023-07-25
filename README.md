@@ -8,11 +8,23 @@ Neve Theme is part of the family created by Themeisle in Wordpress. The Neve the
 
 ## About the Neve-child Theme
 
-It is based from the parent theme Neve. Design modifications I made is for the CP3402 Supplementary Assignment Project. This child-theme is easy to use and well designed for third age people.
+The child theme we have developed for our website contributes several important changes to the overall design and functionality. Firstly, it introduces a custom color scheme that aligns with our brand identity, creating a more cohesive and visually appealing user experience. Additionally, the child theme modifies the header layout to include a new logo and navigation menu, enhancing the website's navigation and branding.
+
+Furthermore, the child theme alters the typography across the site, using more readable fonts to improve accessibility and user engagement. It also implements responsive design elements, ensuring that the website adapts seamlessly to different screen sizes and devices, making it mobile-friendly for our users.
+
+Regarding further changes to the child theme, we recommend making updates and adjustments primarily within the child theme's stylesheet (style.css). This is where additional CSS rules can be added or modified to adjust the layout, colors, and other visual aspects of the website.
 
 ## Local Development - Docker Desktop
 
-Local development systems that will be used include Docker and Git. The workflow mainly consists of cloning this project's repository into the files of a locally hosted website, before making changes on a feature-specific branch.
+Docker Desktop is a cutting-edge local development solution for WordPress projects. By leveraging container technology, Docker enables you to create lightweight, self-contained environments that encapsulate your entire WordPress setup, including the application, dependencies, and configuration. This means you can easily replicate the exact development environment across different machines, making collaboration and deployment a breeze.
+
+Comparing to Vagrant:
+
+While both Docker Desktop and Vagrant aim to simplify local development, Docker stands out with its efficiency and resource optimization. Unlike Vagrant, which relies on virtual machines, Docker uses containers, which consume fewer system resources and boot up much faster. This allows for quicker iteration and testing in the WordPress development process.
+
+Additionally, Docker benefits from an extensive library of pre-built container images specifically tailored for WordPress, making setup and configuration more straightforward. On the other hand, Vagrant often requires custom virtual machine configurations, which can be more time-consuming and complex.
+
+In summary, Docker Desktop offers a streamlined and lightweight approach to developing WordPress projects locally, providing increased speed, efficiency, and simplicity compared to Vagrant's virtual machine-based workflow.
 
 ### Site Setup
 
