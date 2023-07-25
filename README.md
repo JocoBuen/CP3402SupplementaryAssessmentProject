@@ -40,3 +40,17 @@ This project uses Microsoft Azure for its live hosting. The primary workflow inv
 
 ### Site Setup
 
+1. Make an account at [Microsoft Azure](https://azure.microsoft.com/en-au/free/search/?ef_id=_k_EAIaIQobChMIyLTzpvSpgAMV-mwPAh0upAszEAAYASAAEgLcavD_BwE_k_&OCID=AIDcmmxbrcqs76_SEM__k_EAIaIQobChMIyLTzpvSpgAMV-mwPAh0upAszEAAYASAAEgLcavD_BwE_k_&gad=1&gclid=EAIaIQobChMIyLTzpvSpgAMV-mwPAh0upAszEAAYASAAEgLcavD_BwE)
+2. Go to [Create Wordpress on App Service - Microsoft Azure](https://portal.azure.com/#create/WordPress.WordPress)
+3. In the Basics tab, under `Project Details`, select the correct subscription and click on Create new to create a new Resource group. Give a name to identify your resource group and click on OK.
+4. Under Hosting Details, select a region you wish to serve your application from. Give a unique name to your app. If the name is not unique, you will see an error message: The app name _website_name_ is not available.
+5. Under `Hosting Plans`, the Standard hosting plan is selected by default. Should you need to change the plan, click on Change Plan. Choose your desired plan from the plan picker side bar.
+6. Under `WordPress setup`, select the site language, provide an admin email address, username, and password for the WordPress website.
+7. You can directly click on `Review + create` and go to the Review + Create tab or you can click on `Next: Advanced >`.
+8. In the `Advanced` tab, you can opt for advanced features: Azure CDN or Azure AFD, and Azure Blob Storage. We recommend that you select Azure CDN and Azure Blob storage. If you select Azure AFD, you will need to either select an existing AFD profile or create a new one.
+9. On the `Review + create` tab, you can see all the details of the web application. Click on `Create`.
+10. Wait for the deployment to finish. Then click on `Go to resource`.
+11. In the App Service Window, find the URL and go to the website.
+12. You will land on the homepage of your WordPress website.
+13. Add /wp-admin to your URL. In this example, https://wpwebsitename.azurewebsites.net/wp-admin This will take you to the Admin page. In the Admin page, enter your credentials that you had set in Step 5.
+14. You are now in the WordPress Admin Dashboard! Happy WordPress-ing!
