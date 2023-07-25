@@ -23,4 +23,14 @@ Local development systems that will be used include Docker and Git. The workflow
 5. Open Wordpress Admin dashboard by adding `/wp-admin/`
 6. Login with the credentials you created when you installed Wordpress
 
+### Theme Setup
+
+1. Download and Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+2. Download and Install [VS Code](https://code.visualstudio.com/download)
+3. Navigate to your local site's root folder in the terminal of the VS Code
+4. Navigate to `wp-content -> themes`
+5. Clone the repository by typing `git clone https://github.com/JocoBuen/CP3402SupplementaryAssessmentProject.git`
+    1. if using the theme for another purpose, clone a fork of this repository
+6. Navigate to your Wordpress Admin Dashboard under `Appearance -> Themes`
+7. Activate the theme `Neve-child`
 
